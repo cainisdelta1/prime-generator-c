@@ -11,6 +11,9 @@ ones
 wastes time by not starting where last run left off. it starts where at thelast
 prime. if i saved last num checked then itll cut down on time but ill have to
 delete that line on startup
+
+it may be more efficient to not open and close the file everytime but rather 
+to save the numbers to a buffer then append it. or to add the numbers but only close the file at the end
 */
 // eventually the lines in the primeNums file will exceed the size of the int.
 // if i create a new file every int max i can loop through that. this would be
